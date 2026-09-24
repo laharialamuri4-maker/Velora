@@ -25,7 +25,7 @@ export default function TeamSection() {
         <div className="team-banner-showcase glass-card">
           <div className="team-banner-img-box">
             <img 
-              src="/assets/theme/velora_team.jpg" 
+              src={`${import.meta.env.BASE_URL}assets/theme/velora_founder_studio.jpg`} 
               alt="Velora Venture Team Collaboration" 
               className="team-banner-img"
             />

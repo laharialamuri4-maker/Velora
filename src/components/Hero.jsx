@@ -76,7 +76,7 @@ export default function Hero({ onGetStarted, onExplore }) {
           <div className="visual-card-main floating-elem">
             <div className="visual-image-wrapper">
               <img 
-                src="/assets/theme/velora_brand_poster.jpg" 
+                src={`${import.meta.env.BASE_URL}assets/theme/velora_brand_poster.jpg`} 
                 alt="Velora Designed For You, Just For You" 
                 className="visual-img"
               />
@@ -116,7 +116,7 @@ export default function Hero({ onGetStarted, onExplore }) {
           {/* Secondary Floating Studio Thumbnail */}
           <div className="visual-card-secondary">
             <img 
-              src="/assets/theme/velora_founder_studio.jpg" 
+              src={`${import.meta.env.BASE_URL}assets/theme/velora_founder_studio.jpg`} 
               alt="Velora Designer Studio"
               className="thumb-img" 
             />

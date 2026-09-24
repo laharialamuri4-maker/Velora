@@ -26,7 +26,7 @@ export default function AboutSection() {
           </div>
           <div className="studio-image-side">
             <img 
-              src="/assets/theme/velora_industry.jpg" 
+              src={`${import.meta.env.BASE_URL}assets/theme/velora_founder_studio.jpg`} 
               alt="Velora Fashion Industry Studio" 
               className="studio-img"
             />

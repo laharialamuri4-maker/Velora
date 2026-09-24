@@ -55,7 +55,7 @@ export default function ProblemSection() {
           <div className="problem-banner-card glass-card">
             <div className="problem-image-col">
               <img 
-                src="/assets/theme/velora_problem_infographic.jpg" 
+                src={`${import.meta.env.BASE_URL}assets/theme/velora_problem_infographic.jpg`} 
                 alt="The Problem We Are Solving - Velora" 
                 className="problem-theme-img"
               />

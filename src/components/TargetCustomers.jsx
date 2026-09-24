@@ -35,7 +35,7 @@ export default function TargetCustomers() {
         <div className="customers-slide-banner glass-card">
           <div className="slide-media-wrap">
             <img 
-              src="/assets/theme/velora_customers_infographic.jpg" 
+              src={`${import.meta.env.BASE_URL}assets/theme/velora_customers_infographic.jpg`} 
               alt="Velora Customer Categories Infographic" 
               className="customers-infographic-img"
             />
